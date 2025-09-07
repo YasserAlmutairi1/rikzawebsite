@@ -1,0 +1,67 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a; /* black background */
+    color: #e0e0e0; /* light text */
+}
+
+header {
+    background-color: #1a73e8; /* bright-ish blue */
+    padding: 15px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #a0d2ff;
+}
+
+/* Main sections */
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.hero, .about, .news, .application {
+    background-color: #111827; /* dark black/blue */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero h2, .about h2, .news h3, .application h2 {
+    color: #1a73e8;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #1a73e8;
+    margin-top: 20px;
+}
